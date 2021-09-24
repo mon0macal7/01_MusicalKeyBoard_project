@@ -40,7 +40,7 @@ This applications should allow the user to play an instrument with the keyboard,
 - Add an `Assets` folder to add img, and another folder of `music_insturment` .mp3 sounds.
 - Follow up Semantic HTML rules, have title, footer, center content and visual alignment.
 
--**CLUES:
+**CLUES:**
 
 - `data-key` data attributes html
 - [`keyBoardEvent` research](https://developer.mozilla.org/es/docs/Web/API/KeyboardEvent)
@@ -69,7 +69,7 @@ const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
 window.addEventListener('keydown', getSound);
 
 ```
-**Additional Resources
+**Additional Resources**
 - [Download free music sounds](http://www.sonidosmp3gratis.com/botonera.php?botonera=instrumentosmusicales1)
 - [Get the keycode of any keyboard key](https://keycode.info/)
 
