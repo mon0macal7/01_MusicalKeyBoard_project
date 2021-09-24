@@ -87,12 +87,12 @@ Add a feature to play 2 instruments as music companion.
 
 ---
 
-*QuerySelector
-*Audio Tag
-*Data Key attribute
-*Key Code event
-*window event listener
-*play JS method
+- [ ] QuerySelector
+- [ ] Audio Tag
+- [ ] Data Key attribute
+- [ ] Key Code event
+- [ ] Window event listener
+- [ ] Play JS method
 
 ---
 # ReadMe
