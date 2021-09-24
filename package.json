@@ -1,0 +1,29 @@
+{
+  "name": "01_musicalkeyboard_project",
+  "version": "1.0.0",
+  "description": "Application to perform music playing from the keyboard, built with JavaScript, HTML 5 & CSS3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjuscoCodingBootcamp/01_MusicalKeyBoard_project.git"
+  },
+  "keywords": [
+    "MusicalKeyBoard"
+  ],
+  "author": "Bootcamp_Ajusco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AjuscoCodingBootcamp/01_MusicalKeyBoard_project/issues"
+  },
+  "homepage": "https://github.com/AjuscoCodingBootcamp/01_MusicalKeyBoard_project#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
