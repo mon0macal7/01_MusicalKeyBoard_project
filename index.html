@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Musical Keyboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <header>Piano Time</header><i class="fas fa-music"></i>
+      <iframe src="https://giphy.com/embed/M9IrMWngmTb0vmRZcT" width="480" height="219" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      
+            <div class="keys">
+                <div data-key="65" class="key black">
+                  <kbd>A</kbd><br><span class="sound">DO</span>
+                </div>
+                <div data-key="83" class="key white">
+                  <kbd>S</kbd><br><span class="sound">REb2</span>
+                </div>
+                <div data-key="68" class="key black">
+                  <kbd>D</kbd><br><span class="sound"> RE2</span>
+                </div>
+                <div data-key="70" class="key white">
+                  <kbd>F</kbd><br><span class="sound"> MIb2</span>
+                </div>
+                <div data-key="71" class="key black">
+                  <kbd>G</kbd><br><span class="sound">MI2</span>
+                </div>
+                
+                <div data-key="72" class="key white">
+                  <kbd>H</kbd><br><span class="sound">FA2</span>
+                </div>
+                <div data-key="74" class="key black">
+                  <kbd>J</kbd><br><span class="sound">SOLb2</span>
+                </div>
+                <div data-key="75" class="key white">
+                    <kbd>K</kbd><br><span class="sound">SOL</span>
+                  </div>
+                <div data-key="76" class="key black">
+                  <kbd>L</kbd><br><span class="sound">LAb2</span>
+                </div>
+                <div data-key="77" class="key white">
+                  <kbd>M</kbd><br><span class="sound">LA</span>
+                </div>
+                <div data-key="93" class="key black">
+                  <kbd>⌘ </kbd><br><span class="sound">SIb</span>
+                </div>
+                <div data-key="32" class="key white">
+                  <kbd>Bar</kbd><br><span class="sound">SI</span>
+                </div>
+            
+                
+            </div>
+             <!-- Archivos de audio -->
+    <audio
+    data-key="65"
+    src="assets/notasmusicales 2/13C.mp3"
+  ></audio>
+  <audio
+    data-key="83"
+    src="assets/notasmusicales 2/14Db.mp3"
+  ></audio>
+  <audio
+    data-key="68"
+    src="assets/notasmusicales 2/15D.mp3"
+  ></audio>
+  <audio
+    data-key="70"
+    src="assets/notasmusicales 2/16Eb.mp3"
+  ></audio>
+  <audio
+    data-key="71"
+    src="assets/notasmusicales 2/17E.mp3"
+  ></audio>
+  <audio
+    data-key="72"
+    src="assets/notasmusicales 2/18F.mp3"
+  ></audio>
+  <audio
+    data-key="74"
+    src="assets/notasmusicales 2/19Gb.mp3"
+  ></audio>
+  <audio
+    data-key="75"
+    src="assets/notasmusicales 2/20G.mp3"
+  ></audio>
+  <audio
+    data-key="76"
+    src="assets/notasmusicales 2/21Ab.mp3"
+  ></audio>
+  <audio
+    data-key="77"
+    src="assets/notasmusicales 2/22A.mp3"
+  ></audio>
+  <audio
+    data-key="32"
+    src="assets/notasmusicales 2/23Bb.mp3"
+  ></audio>
+  <audio
+    data-key="93"
+    src="assets/notasmusicales 2/24B.mp3"
+  ></audio>
+     <script src="musickeyboard.js" async defer></script>
+
+     <footer id="pie">
+        <p>&copy;Created for Mónica Macal at BootCamp Ajusco CDMX,2021 </p>
+        <a href="https://www.youtube.com/watch?v=NC5plbNkgSU">Learn a basic scale of piano</a>
+    </footer>  
+    </body>
+</html>
